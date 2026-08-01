@@ -859,6 +859,8 @@ message Misc {
     DisplayResolution change_display_resolution = 36;
     MessageQuery message_query = 37;
     int32 follow_current_display = 38;
+    // [jilian] remote one-click shutdown (custom feature, see JiLian commit 9da2cd3)
+    bool shutdown_remote_device = 39;
   }
 }
 
